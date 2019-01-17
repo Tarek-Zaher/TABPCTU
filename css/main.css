@@ -1,0 +1,144 @@
+/* Animations */
+
+/* Header */
+#header {
+  font-family: 'Lato-Black', sans-serif;
+  color: #3D72A4;
+}
+
+.header-container {
+  width: 100%;
+}
+
+.heading-text-container {
+  width: 100%;
+  position: absolute;
+  top: 7%;
+  text-align: center;
+}
+
+.big-heading {
+  font-size: 15vw;
+}
+
+.small-heading {
+  font-size: 5vw;
+}
+
+
+/* Navbar */
+.nav-link {
+  background-color: #3D72A4;
+}
+
+/* Main Section */
+.quote {
+  font-family: 'Roboto Slab', serif;
+  color: #454545;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.quote-attribution {
+  font-family: 'Roboto Slab', serif;
+  color: #454545;
+  text-align: right;
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.mission-statement {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #454545;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.saying {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 900;
+  color: #3D72A4;
+  font-size: 1.5rem;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+/* Mobile-Specific CSS */
+@media only screen and (max-width: 425px) {
+
+  /* HEADER */
+  /* Visible Images */
+  .mobile-image {
+    display: block;
+  }
+
+  /* Hidden Images */
+  .tablet-image {
+    display: none;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+
+}
+
+/* Tablet-Specific CSS */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+  /* HEADER */
+  /* Visible Images */
+  .tablet-image {
+    display: block;
+  }
+
+  /* Hidden Images */
+  .mobile-image {
+    display: none;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+
+}
+
+/* Desktop-Specific CSS */
+@media only screen and (min-width: 769px) and (max-width: 2560px) {
+
+  /* HEADER */
+  /* Visible Images */
+  .desktop-image {
+    display: block;
+  }
+
+  /* Hidden Images */
+  .mobile-image {
+    display: none;
+  }
+
+  .tablet-image {
+    display: none;
+  }
+
+  /* NAVBAR */
+  .nav-link {
+    position: relative;
+    transition: all 0.5s;
+  }
+  .nav-link:hover {
+    box-shadow: 0 5px black;
+    transform: translateY(-5px);
+  }
+
+  /* Main Section */
+
+}
